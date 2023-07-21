@@ -23,6 +23,14 @@ for (let k = 0; k < numbers.length; k++) {
   }
 }
 const currentDay = new Date().getDay();
-const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const daysOfWeek = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
 
 console.log("Today is " + daysOfWeek[currentDay]);
